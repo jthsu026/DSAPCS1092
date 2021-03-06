@@ -1,0 +1,36 @@
+
+#include <iostream>                                    
+#include <iomanip>                                     
+#include <new>                                       
+#include <string>                                    
+#include <cstdlib>                                   
+#include <ctime>                                     
+ 
+int main(void) 
+{   int command = 0;      
+ 
+    do 
+    {   int N, M; 
+ 
+        cout << endl << "** Permutation Generator **"; 
+        cout << endl << "* 0. Quit                 *"; 
+        cout << endl << "* 1. N numbers from 1..N  *"; 
+        cout << endl << "* 2. M numbers from input *"; 
+        cout << endl << "***************************"; 
+        cout << endl << "Input a choice(0, 1, 2): "; 
+        cin >> command;     
+        switch (command) 
+        { 
+			case 0: break; 
+            
+			case 1: 
+            
+			case 2: 
+			
+            default: cout << endl << "Command does not exist!" << endl; 
+        } // end switch 
+        
+    } while (command != 0);     // '0': stop the program 
+    system("pause");      // pause the display 
+    return 0; 
+} // end main 
